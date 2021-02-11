@@ -24,7 +24,7 @@ The model uses the Adaptive Monte Carlo localization (AMCL) algorithm  for local
 
 | Differential robot | Omnidirectional robot | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="600">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
 
 ## Prerequisites
 
@@ -70,7 +70,13 @@ $ roslaunch skid_gazebo skid_all_tags.launch
 
 Gazebo and Rviz will load and you should arrive at a result similar to the below.
 
-![Gazebo & RViz with costmap](images/RvizGazebo.png)
+| Gazebo (diff_bot) | Rviz (diff_bot) | 
+|:-----------------:|:-----------------:|
+|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
+
+| Gazebo (skid_bot) | Rviz (skid_bot) | 
+|:-----------------:|:-----------------:|
+|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
 
 ###### Testing 
 
