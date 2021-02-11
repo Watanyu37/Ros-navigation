@@ -22,7 +22,9 @@ A 2D navigation stack that takes in information from odometry, sensor streams, a
 This repository contains a Robot Operating System (ROS) implementation of a differential and omnidirectional robot model for uses with the ROS navigation stack.
 The model uses the Adaptive Monte Carlo localization (AMCL) algorithm  for localisation with the Dwa local planner method to navigate to goal locations.
 
-![skid-steer robot model](images/skid-steer-bot.png)
+| Differential robot | Omnidirectional robot | 
+|:-----------------:|:-----------------:|
+|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="600">](https://fjp.at/projects/diffbot/) |
 
 ## Prerequisites
 
@@ -32,7 +34,7 @@ The model uses the Adaptive Monte Carlo localization (AMCL) algorithm  for local
 
 3. Install ROS nodes required for the local and global planners, amcl, maps and motor control for the navigation stack.
 
-## Installing
+## Install instructions
 
 Clone this repository in your workspace_name. (In "src" folder)
 
@@ -54,7 +56,7 @@ source ~/workspace_name/devel/setup.bash
 
 ## Run the Code
 
-In a terminal window, type the following, for differrential robot  differential and omnidirectional
+In a terminal window, type the following, for differrential robot  
 ```sh
 $ cd ~/workspace_name
 $ roslaunch diff_gazebo diff_all_tags.launch
