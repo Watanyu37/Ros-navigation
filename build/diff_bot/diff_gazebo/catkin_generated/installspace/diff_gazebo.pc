@@ -1,0 +1,8 @@
+prefix=/home/wathanyu/cmu_robot/install
+
+Name: diff_gazebo
+Description: Description of diff_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

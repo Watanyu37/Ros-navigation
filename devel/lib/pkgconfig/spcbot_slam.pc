@@ -1,0 +1,8 @@
+prefix=/home/wathanyu/cmu_robot/devel
+
+Name: spcbot_slam
+Description: Description of spcbot_slam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

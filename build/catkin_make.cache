@@ -1,0 +1,2 @@
+diff_bot/diff_description:diff_bot/diff_gazebo:diff_bot/diff_navigation:diff_bot/diff_slam:goal:skid_bot/skid_description:skid_bot/skid_gazebo:skid_bot/skid_navigation:skid_bot/skid_slam
+-DCATKIN_DEVEL_PREFIX=/home/wathanyu/cmu_robot/devel -DCMAKE_INSTALL_PREFIX=/home/wathanyu/cmu_robot/install -G Unix Makefiles

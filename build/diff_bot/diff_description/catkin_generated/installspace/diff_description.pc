@@ -1,0 +1,8 @@
+prefix=/home/wathanyu/cmu_robot/install
+
+Name: diff_description
+Description: Description of diff_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

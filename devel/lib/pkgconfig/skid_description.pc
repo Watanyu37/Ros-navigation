@@ -1,0 +1,8 @@
+prefix=/home/wathanyu/cmu_robot/devel
+
+Name: skid_description
+Description: Description of skid_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
