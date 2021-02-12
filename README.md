@@ -9,14 +9,18 @@
    
 2. A mobile robot:
    - Differential drive (or omnidirectional drive-- extra points)
-   - about 0.5m (length) x 0.5m (width) x 1.0 (height) (Examples)
+   - About 0.5 m (length) x 0.5m (width) x 1.0 (height) (Examples)
    
 3. Map from Lidar sensor
 
 4. Autonomous navigation capability
 
-This repository contains a Robot Operating System (ROS) implementation of a skid-steer robot model for uses with the ROS navigation stack.
-The model uses the Adaptive Monte Carlo Localisation (AMCL) method for localisation with the Elastic band planner method to navigate to goal locations.
+## Introduction
+
+A 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base.
+
+This repository contains a Robot Operating System (ROS) implementation of a differential and omnidirectional robot model for uses with the ROS navigation stack.
+The model uses the Adaptive Monte Carlo localization (AMCL) algorithm  for localisation with the Dwa local planner method to navigate to goal locations.
 
 ![skid-steer robot model](images/skid-steer-bot.png)
 
@@ -24,26 +28,17 @@ The model uses the Adaptive Monte Carlo Localisation (AMCL) method for localisat
 
 1. [Ubuntu (melodic)](http://wiki.ros.org/melodic/Installation/Ubuntu) 
 
-2. Robot Operating System (ROS). can be found [here](http://wiki.ros.org/ROS/Installation).
+2. Robot Operating System (ROS). can be found [here](http://wiki.ros.org/ROS/Installation). (Version 1)
 
 3. Install ROS nodes required for the local and global planners, amcl, maps and motor control for the navigation stack.
 
-```sh
-$ sudo apt-get update
-$ sudo apt-get install ros-kinetic-move-base
-$ sudo apt-get install ros-kinetic-map-server
-$ sudo apt-get install ros-kinetic-amcl
-$ sudo apt-get install ros-kinetic-eband-local-planner
-$ sudo apt-get install ros-kinetic-global-planner
-```
-
 ## Installing
 
-Clone this repository in your catkin workspace 'src/' folder.
+Clone this repository in your workspace_name. (In "src" folder)
 
 ```sh
 $ cd ~/workspace_name/src/
-$ git clone https://github.com/Heych88/skid_steer_bot.git
+$ git clone https://github.com/Watanyu37/Ros-navigation.git
 ```
 
 Build the project:
@@ -59,17 +54,16 @@ source ~/workspace_name/devel/setup.bash
 
 ## Run the Code
 
-In a terminal window, type the following, for diff_robot
+In a terminal window, type the following, for differrential robot  differential and omnidirectional
 ```sh
-$ cd ~/catkin_ws
-$ roslaunch skid_steer_bot udacity_world.launch
+$ cd ~/workspace_name
+$ roslaunch diff_gazebo diff_all_tags.launch
 ```
-
-In a new terminal, run the '' file.
+For omnidirectional robot
+In a terminal window, type the following
 ```sh
-$ cd ~/catkin_ws
-$ source devel/setup.bash
-$ roslaunch skid_steer_bot amcl.launch
+$ cd ~/workspace_name
+$ roslaunch skid_gazebo skid_all_tags.launch
 ```
 
 Gazebo and Rviz will load and you should arrive at a result similar to the below.
@@ -78,13 +72,13 @@ Gazebo and Rviz will load and you should arrive at a result similar to the below
 
 ###### Testing 
 
+Navigate by 2D Nav Goal
 1. In Rviz, click on the 2D Nav Goal in the top menu. 
 2. Click on the Rviz map where you want the robot to navigate too. 
+
+Navigate by python file.
 
 You should arrive at a result similar to the below.
 
 ![navigation to a goal location](images/nav_goal.png)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
