@@ -1,4 +1,19 @@
-# ROS Localisation and Navigation using Adaptive Monte Carlo Localisation (AMCL) with a skid-steer robot
+# Robotics Technology (254774)
+# Assignment-01: Ros Robot Navigation. 
+
+1. Custom environments in Gazebo:
+   - floor size at least 500 square meters
+   - at least 5 rooms
+   - at least 20 furniture items (table, chair, plant pots, etc.)
+   - other things as you can imagine
+   
+2. A mobile robot:
+   - Differential drive (or omnidirectional drive-- extra points)
+   - about 0.5m (length) x 0.5m (width) x 1.0 (height) (Examples)
+   
+3. Map from Lidar sensor
+
+4. Autonomous navigation capability
 
 This repository contains a Robot Operating System (ROS) implementation of a skid-steer robot model for uses with the ROS navigation stack.
 The model uses the Adaptive Monte Carlo Localisation (AMCL) method for localisation with the Elastic band planner method to navigate to goal locations.
