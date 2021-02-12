@@ -36,7 +36,7 @@ The model uses the Adaptive Monte Carlo localization (AMCL) algorithm  for local
 
 ## Installation
 
-Clone this repository in your workspace_name. (In "src" folder)
+Clone this repository in your workspace_name. (Inside "src" folder)
 
 ```sh
 $ cd ~/workspace_name/src/
@@ -64,7 +64,6 @@ $ roslaunch diff_gazebo diff_all_tags.launch
 ```
 
 For omnidirectional robot
-In a terminal window, type the following
 ```sh
 $ cd ~/workspace_name
 $ roslaunch skid_gazebo skid_all_tags.launch
