@@ -73,7 +73,7 @@ Gazebo and Rviz will load and you should arrive at a result similar to the below
 
 | Gazebo (diff_bot) | Rviz (diff_bot) | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/gazebo.png" width="1000">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/rviz.png" width="1000">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/gazebo.png" width="750">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/rviz.png" width="1000">](https://fjp.at/projects/diffbot/) |
 
 ###### Testing 
 
@@ -87,5 +87,7 @@ Navigate by python file.
 
 You should arrive at a result similar to the below.
 
-![navigation to a goal location](images/nav_goal.png)
+| Gazebo (diff_bot) | Rviz (diff_bot) | 
+|:-----------------:|:-----------------:|
+|  [<img src="images/2D_goal_nv.png" width="750">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/2D_goal_pyhon.png" width="1000">](https://fjp.at/projects/diffbot/) |
 
