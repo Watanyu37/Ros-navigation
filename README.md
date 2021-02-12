@@ -24,7 +24,7 @@ The model uses the Adaptive Monte Carlo localization (AMCL) algorithm  for local
 
 | Differential robot | Omnidirectional robot | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/diff_robot.png" width="512">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/diff_robot.png" width="512">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/diff_robot.png) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
 
 ## Prerequisites
 
