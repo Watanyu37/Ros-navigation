@@ -73,11 +73,7 @@ Gazebo and Rviz will load and you should arrive at a result similar to the below
 
 | Gazebo (diff_bot) | Rviz (diff_bot) | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
-
-| Gazebo (skid_bot) | Rviz (skid_bot) | 
-|:-----------------:|:-----------------:|
-|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/gazebo.png" width="1000">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/rviz.png" width="1000">](https://fjp.at/projects/diffbot/) |
 
 ###### Testing 
 
