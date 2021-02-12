@@ -71,23 +71,24 @@ $ roslaunch skid_gazebo skid_all_tags.launch
 
 Gazebo and Rviz will load and you should arrive at a result similar to the below.
 
-| Gazebo (diff_bot) | Rviz (diff_bot) | 
+| Gazebo | Rviz | 
 |:-----------------:|:-----------------:|
 |  [<img src="images/gazebo.png" width="750">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/rviz.png" width="1000">](https://fjp.at/projects/diffbot/) |
 
-###### Testing 
+## Testing 
 
 Navigate by 2D Nav Goal
+
 1. In Rviz, click on the 2D Nav Goal in the top menu. 
 2. Click on the Rviz map where you want the robot to navigate too. 
 
-Navigate by python file.
-1. In Rviz, click on the 2D Nav Goal in the top menu. 
-2. Click on the Rviz map where you want the robot to navigate too.
+Or navigate by python file.
 
 You should arrive at a result similar to the below.
 
-| Gazebo (diff_bot) | Rviz (diff_bot) | 
+| Navigate by 2D Nav Goal | Navigate by python file | 
 |:-----------------:|:-----------------:|
 |  [<img src="images/2D_goal.png" width="1000">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/2D_goal_pyhon.png" width="1000">](https://fjp.at/projects/diffbot/) |
+
+## Video presentation
 
