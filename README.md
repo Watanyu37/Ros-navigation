@@ -24,17 +24,17 @@ The model uses the Adaptive Monte Carlo localization (AMCL) algorithm  for local
 
 | Differential robot | Omnidirectional robot | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/diff_robot.png" width="512">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
 
 ## Prerequisites
 
-1. [Ubuntu (melodic)](http://wiki.ros.org/melodic/Installation/Ubuntu) 
+1. Ubuntu 18.1.4
 
-2. Robot Operating System (ROS). can be found [here](http://wiki.ros.org/ROS/Installation). (Version 1)
+2. Robot Operating System (ROS1) 
 
-3. Install ROS nodes required for the local and global planners, amcl, maps and motor control for the navigation stack.
+3. Install ROS nodes required for the navigation stack.
 
-## Install instructions
+## Installation
 
 Clone this repository in your workspace_name. (In "src" folder)
 
@@ -57,10 +57,12 @@ source ~/workspace_name/devel/setup.bash
 ## Run the Code
 
 In a terminal window, type the following, for differrential robot  
+
 ```sh
 $ cd ~/workspace_name
 $ roslaunch diff_gazebo diff_all_tags.launch
 ```
+
 For omnidirectional robot
 In a terminal window, type the following
 ```sh
@@ -85,6 +87,8 @@ Navigate by 2D Nav Goal
 2. Click on the Rviz map where you want the robot to navigate too. 
 
 Navigate by python file.
+1. In Rviz, click on the 2D Nav Goal in the top menu. 
+2. Click on the Rviz map where you want the robot to navigate too.
 
 You should arrive at a result similar to the below.
 
