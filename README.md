@@ -89,5 +89,5 @@ You should arrive at a result similar to the below.
 
 | Gazebo (diff_bot) | Rviz (diff_bot) | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/2D_goal_nv.png" width="750">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/2D_goal_pyhon.png" width="1000">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/2D_goal.png" width="1000">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/2D_goal_pyhon.png" width="1000">](https://fjp.at/projects/diffbot/) |
 
