@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <include file="$(find diff_gazebo)/launch/diffbot_complete_boxs.launch"/>
+
+    <include file="$(find diff_description)/launch/rviz.launch"/>
+
+    <include file="$(find diff_navigation)/launch/diff_navigation.launch"/>
+    
+
+</launch>

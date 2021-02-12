@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <include file="$(find skid_gazebo)/launch/skid_bot_cmu.launch"/>
+
+    <include file="$(find skid_description)/launch/rviz.launch"/>
+
+    <include file="$(find skid_navigation)/launch/skid_navigation.launch"/>
+    
+
+</launch>
