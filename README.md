@@ -24,7 +24,7 @@ The model uses the Adaptive Monte Carlo localization (AMCL) algorithm  for local
 
 | Differential robot | Omnidirectional robot | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/diff_robot.png" width="512">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/diff_robot.png) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/diff_robot.png" width="512">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/diff_robot.png) |  [<img src="images/skid_robot.png" width="550">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/skid_robot.png) |
 
 ## Prerequisites
 
@@ -73,7 +73,7 @@ Gazebo and Rviz will load and you should arrive at a result similar to the below
 
 | Gazebo | Rviz | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/gazebo.png" width="750">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/rviz.png" width="1000">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/gazebo.png" width="750">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/gazebo.png) |  [<img src="images/rviz.png" width="1000">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/rviz.png) |
 
 ## Testing 
 
@@ -88,7 +88,7 @@ You should arrive at a result similar to the below.
 
 | Navigate by 2D Nav Goal | Navigate by python file | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/2D_goal.png" width="1000">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/2D_goal_pyhon.png" width="1000">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/2D_goal.png" width="1000">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/2D_goal.png) |  [<img src="images/2D_goal_pyhon.png" width="1000">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/2D_goal_pyhon.png) |
 
 ## Video presentation
 
