@@ -24,19 +24,19 @@ The model uses the Adaptive Monte Carlo localization (AMCL) algorithm  for local
 
 | Differential robot | Omnidirectional robot | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/diff_robot.png" width="512">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/diff_robot.png) |  [<img src="images/skid_robot.png" width="550">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/skid_robot.png) |
 
 ## Prerequisites
 
-1. [Ubuntu (melodic)](http://wiki.ros.org/melodic/Installation/Ubuntu) 
+1. Ubuntu 18.1.4
 
-2. Robot Operating System (ROS). can be found [here](http://wiki.ros.org/ROS/Installation). (Version 1)
+2. Robot Operating System (ROS1) 
 
-3. Install ROS nodes required for the local and global planners, amcl, maps and motor control for the navigation stack.
+3. Install ROS nodes required for the navigation stack.
 
-## Install instructions
+## Installation
 
-Clone this repository in your workspace_name. (In "src" folder)
+Clone this repository in your workspace_name. (Inside "src" folder)
 
 ```sh
 $ cd ~/workspace_name/src/
@@ -57,12 +57,13 @@ source ~/workspace_name/devel/setup.bash
 ## Run the Code
 
 In a terminal window, type the following, for differrential robot  
+
 ```sh
 $ cd ~/workspace_name
 $ roslaunch diff_gazebo diff_all_tags.launch
 ```
+
 For omnidirectional robot
-In a terminal window, type the following
 ```sh
 $ cd ~/workspace_name
 $ roslaunch skid_gazebo skid_all_tags.launch
@@ -70,23 +71,24 @@ $ roslaunch skid_gazebo skid_all_tags.launch
 
 Gazebo and Rviz will load and you should arrive at a result similar to the below.
 
-| Gazebo (diff_bot) | Rviz (diff_bot) | 
+| Gazebo | Rviz | 
 |:-----------------:|:-----------------:|
-|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
+|  [<img src="images/gazebo.png" width="750">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/gazebo.png) |  [<img src="images/rviz.png" width="1000">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/rviz.png) |
 
-| Gazebo (skid_bot) | Rviz (skid_bot) | 
-|:-----------------:|:-----------------:|
-|  [<img src="images/diff_robot.png" width="550">](https://youtu.be/IcYkQyzUqik) |  [<img src="images/skid_robot.png" width="550">](https://fjp.at/projects/diffbot/) |
-
-###### Testing 
+## Testing 
 
 Navigate by 2D Nav Goal
+
 1. In Rviz, click on the 2D Nav Goal in the top menu. 
 2. Click on the Rviz map where you want the robot to navigate too. 
 
-Navigate by python file.
+Or navigate by python file.
 
 You should arrive at a result similar to the below.
 
-![navigation to a goal location](images/nav_goal.png)
+| Navigate by 2D Nav Goal | Navigate by python file | 
+|:-----------------:|:-----------------:|
+|  [<img src="images/2D_goal.png" width="1000">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/2D_goal.png) |  [<img src="images/2D_goal_pyhon.png" width="1000">](https://github.com/Watanyu37/Ros-navigation/blob/main/images/2D_goal_pyhon.png) |
+
+## Video presentation
 
